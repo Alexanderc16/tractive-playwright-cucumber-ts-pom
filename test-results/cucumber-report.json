@@ -1,0 +1,552 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login/registration-happy-path;verify-user-is-able-to-register",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify user is able to register",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 795889277
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the base URL",
+            "match": {
+              "location": "test/steps/commonSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1598119654
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user verifies \"GPS and Health Tracking\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 9917777,
+              "error_message": "Error: expect: Property 'then' not found.\n    at ExpectMetaInfoProxyHandler.get (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/node_modules/playwright/lib/matchers/expect.js:214:38)\n    at step (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:7:47)\n    at fulfilled (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:5:43)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at processImmediate (node:internal/timers:479:9)\n    at process.topLevelDomainCallback (node:domain:161:15)\n    at process.callbackTrampoline (node:internal/async_hooks:128:24)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user verifies \"for Cats and Dogs\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user verifies \"Sign In\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user clicks on \"Create Account\" text",
+            "match": {
+              "location": "test/steps/commonSteps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user inputs the \"First\" registration first name",
+            "match": {
+              "location": "test/steps/registerSteps.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user inputs the \"Last\" registration last name",
+            "match": {
+              "location": "test/steps/registerSteps.ts:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user inputs the \"testing1234@gmail.com\" registration email",
+            "match": {
+              "location": "test/steps/registerSteps.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user inputs the \"12345678901\" registration password",
+            "match": {
+              "location": "test/steps/registerSteps.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user clicks Create Account button",
+            "match": {
+              "location": "test/steps/registerSteps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user verifies url is \"https://my-stage.tractive.com/#/settings/\"",
+            "match": {
+              "location": "test/steps/commonSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user verifies \"testing1234@gmail.com\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user verifies \"Manage your Account\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user verifies \"My Profile\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user verifies \"Dogs & Cats\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "user verifies \"Trackers & Subscription Plans\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "user verifies \"Refer Friends\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user verifies \"Billing & Payment\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user verifies \"General Settings\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "user verifies \"Demo mode\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 100660858,
+              "error_message": "locator.isVisible: Target page, context or browser has been closed\nCall log:\n\u001b[2m    - checking visibility of getByText('GPS and Health Tracking')\u001b[22m\n\n    at World.<anonymous> (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:14:50)\n    at step (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:33:23)\n    at Object.next (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:14:53)\n    at fulfilled (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login/registration-happy-path;verify-user-is-able-to-login",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify user is able to login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 312339447
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the base URL",
+            "match": {
+              "location": "test/steps/commonSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1274633227
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "user verifies \"GPS and Health Tracking\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2778477,
+              "error_message": "Error: expect: Property 'then' not found.\n    at ExpectMetaInfoProxyHandler.get (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/node_modules/playwright/lib/matchers/expect.js:214:38)\n    at step (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:7:47)\n    at fulfilled (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:5:43)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at processImmediate (node:internal/timers:479:9)\n    at process.topLevelDomainCallback (node:domain:161:15)\n    at process.callbackTrampoline (node:internal/async_hooks:128:24)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "user verifies \"for Cats and Dogs\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user verifies \"Sign In\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "user inputs the \"testing123@gmail.com\" login email",
+            "match": {
+              "location": "test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "user inputs the \"1234567890\" login password",
+            "match": {
+              "location": "test/steps/loginSteps.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user clicks login button",
+            "match": {
+              "location": "test/steps/loginSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "user verifies url is \"https://my-stage.tractive.com/#/settings/\"",
+            "match": {
+              "location": "test/steps/commonSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "user verifies \"testing123@gmail.com\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "user verifies \"Manage your Account\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "user verifies \"My Profile\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "user verifies \"Dogs & Cats\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "user verifies \"Trackers & Subscription Plans\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "user verifies \"Refer Friends\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "user verifies \"Billing & Payment\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "user verifies \"General Settings\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "user verifies \"Demo mode\" text is present",
+            "match": {
+              "location": "test/steps/commonSteps.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 116214280,
+              "error_message": "locator.isVisible: Target page, context or browser has been closed\nCall log:\n\u001b[2m    - checking visibility of getByText('GPS and Health Tracking')\u001b[22m\n\n    at World.<anonymous> (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:14:50)\n    at step (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:33:23)\n    at Object.next (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:14:53)\n    at fulfilled (/Users/tiktok/Desktop/Tractive_Playwright_Cucumber_TS_pom/test/steps/commonSteps.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login/registration-happy-path",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login/Registration Happy path",
+    "tags": [],
+    "uri": "test/features/Login Register Happy Path.feature"
+  }
+]
