@@ -4,7 +4,7 @@ As a Tech Assignment from Tractive, I received a task to find bugs manually in s
 
 This repository provides a robust test automation framework combining [Playwright](https://playwright.dev) for fast and reliable end-to-end testing, [Cucumber](https://cucumber.io/) for behavior-driven development (BDD), and [TypeScript](https://www.typescriptlang.org/) for static typing and maintainable code.
 
-## [Summary of manually found bugs](Tractive Manual Testing Report.pdf)
+## [Summary of manually found bugs](Manual%20Testing%20Report/Tractive%20Manual%20Testing%20Report.pdf)
 
 ## Key Features
 
